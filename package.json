@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "rx-100",
   "version": "1.0.0",
-  "description": "",
+  "description": "Landing page for rx-100",
   "main": "index.js",
   "scripts": {
     "compile:sass" : "node-sass sass/main.scss style.css -w"
