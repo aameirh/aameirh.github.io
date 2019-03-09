@@ -1,0 +1,36 @@
+#aboutme{
+overflow-x: hidden;
+    img{
+        width:100%!important;
+        height:100%;
+    }
+    h5{
+        transform: rotate(-90deg);     
+        position: absolute;
+        top:200px;
+    }
+}
+
+
+
+
+@media(max-width:575.98px){
+    #aboutme{
+      h1{
+          font-size: 30px!important;
+      }
+      .h2{
+          font-size:28px!important;
+          text-align: center;
+      }
+      .lead{
+          font-size:18px!important;
+      }
+      .h4{
+          font-size: 24px!important;
+          
+      }
+  
+      
+  }
+  }

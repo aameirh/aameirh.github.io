@@ -1,0 +1,154 @@
+nav {
+  color: black;
+  text-transform: capitalize;
+  font-size: 20px !important; }
+
+#navi {
+  font-size: 30px !important;
+  color: black;
+  font-family: "Shadows Into Light", cursive !important; }
+
+#home {
+  background: url(../../img/image.jpg);
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  overflow-x: hidden; }
+  #home .display-block {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #home .display-block h5 {
+      transform: rotate(-90deg);
+      position: absolute;
+      top: 450px; }
+    #home .display-block #homeh {
+      margin-top: 250px; }
+    #home .display-block #amir {
+      font-family: "Shadows Into Light", cursive !important; }
+
+@media (max-width: 575.98px) {
+  #home {
+    background: url(../../img/image1.jpg);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    overflow-x: hidden; }
+    #home #homeh h1 {
+      font-size: 30px !important; } }
+
+#aboutme {
+  overflow-x: hidden; }
+  #aboutme img {
+    width: 100% !important;
+    height: 100%; }
+  #aboutme h5 {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 200px; }
+
+@media (max-width: 575.98px) {
+  #aboutme h1 {
+    font-size: 30px !important; }
+  #aboutme .h2 {
+    font-size: 28px !important;
+    text-align: center; }
+  #aboutme .lead {
+    font-size: 18px !important; }
+  #aboutme .h4 {
+    font-size: 24px !important; } }
+
+#h5 {
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 250px;
+  left: 100px; }
+
+#story {
+  background: #f8f7f7; }
+  #story .wrapper {
+    width: auto; }
+  #story .circle {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    width: 280px;
+    height: 70px;
+    padding: 10px;
+    background: #2b2a2a;
+    position: relative;
+    margin: 0px auto 0 auto; }
+  #story .circle1 {
+    height: 100px; }
+  #story h5 {
+    position: absolute;
+    font-size: 16px !important;
+    margin: 0;
+    color: #fff; }
+  #story .vertical-line {
+    width: 2px;
+    height: 40px;
+    background: #2ecc71;
+    margin: 0px auto 0 auto; }
+  #story hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background: linear-gradient(to right, #ccc, #333, #ccc); }
+
+#knowledge {
+  padding: 150px; }
+  #knowledge #h5 {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 90px;
+    left: 100px; }
+  #knowledge #fae {
+    color: black !important; }
+
+#knowledge i {
+  color: green; }
+
+#myskills {
+  background: #f8f7f7; }
+  #myskills img {
+    filter: blur(1px) grayscale(2%); }
+  #myskills .h4 {
+    font-size: 16px !important; }
+
+#knowledge i {
+  color: green; }
+
+@media (max-width: 575.98px) {
+  #myskills img {
+    width: 90% !important;
+    height: 90% !important;
+    margin-bottom: 20px; } }
+
+@media (min-width: 576px) {
+  #myskills img {
+    width: 80% !important;
+    height: 70% !important; } }
+
+@media (min-width: 768px) {
+  #myskills img {
+    width: 100% !important;
+    height: 100% !important; } }
+
+#footer {
+  background: #202020; }
+
+#footer #a {
+  color: white !important;
+  font-size: 20px !important;
+  margin-left: 10px; }
+
+body {
+  font-family: 'Lusitana', serif; }

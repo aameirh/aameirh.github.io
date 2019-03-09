@@ -1,0 +1,52 @@
+
+#h5{
+
+        transform: rotate(-90deg);     
+        position: absolute;
+        top:250px;
+        left:100px;
+    
+}
+
+#story{
+    background: rgb(248, 247, 247);
+    .wrapper {
+        width: auto;
+      }
+      
+      .circle {
+          border-top-left-radius: 20px;
+          border-bottom-right-radius: 20px;
+          text-align: center;
+        width: 280px;
+        height: 70px;
+        padding: 10px;
+        background: #2b2a2a;
+        position: relative;
+        margin: 0px auto 0 auto;
+      }
+      .circle1{
+          height:100px;
+      }
+      
+      h5 {
+        position: absolute;
+        font-size:16px!important;
+        margin: 0;
+        color: #fff;
+      }
+      
+      .vertical-line {
+        width: 2px;
+        height: 40px;
+        background: #2ecc71;
+        margin: 0px auto 0 auto;
+      }
+      
+      hr {
+        border: 0;
+        height: 1px;
+        background: #333;
+        background: linear-gradient(to right, #ccc, #333, #ccc);
+      }
+}
