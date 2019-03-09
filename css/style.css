@@ -1,4 +1,5 @@
 nav {
+  background: white;
   color: black;
   text-transform: capitalize;
   font-size: 20px !important; }
@@ -122,9 +123,6 @@ nav {
     filter: blur(1px) grayscale(2%); }
   #myskills .h4 {
     font-size: 16px !important; }
-
-#knowledge i {
-  color: green; }
 
 @media (max-width: 575.98px) {
   #myskills img {
